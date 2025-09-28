@@ -10,7 +10,7 @@ export const SubmitButton = () => {
     }
 
     try {
-      const res = await fetch("https://drag-drop-pipeline-production.up.railway.app/", {
+      const res = await fetch("https://drag-drop-pipeline-production.up.railway.app/pipelines/parse", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ nodes, edges }),
