@@ -1,3 +1,21 @@
+# Web framework
 fastapi
 uvicorn[standard]
+
+# Networking / requests
+httpx
+requests
+
+# Data handling
+pandas
+numpy
+
+# Graphs
 networkx
+
+# Machine learning / AI (optional, if used in your project)
+scikit-learn
+joblib
+
+# Utilities
+python-dotenv
